@@ -40,7 +40,7 @@ const app = express()
 
 
 //API
-app.use(cors({ credentials: true, origin: 'https://entrega-final-frontend-liard.vercel.app/' }))
+app.use(cors({ credentials: true, origin: 'https://entrega-final-frontend-liard.vercel.app' }))
 
 //Middlewares 
 app.use('/static', express.static(path.join(__dirname, '../static')))
